@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Wallet } from 'lucide-react';
-import Cookies from '../../../../node_modules/@types/js-cookie';
+import Cookies from 'js-cookie';
 import Link from 'next/link';
 import { StateContext } from '@/context/ContractContext';
 import { CustomerLayout } from '@/components/CustomerLayout';

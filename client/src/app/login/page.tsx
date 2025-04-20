@@ -20,7 +20,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { GlobalContext } from "@/context/context";
 import { useContext } from 'react';
 import { fetchUser } from '@/utils';
-import Cookies from '../../../node_modules/@types/js-cookie';
+import Cookies from 'js-cookie';
 
 // Register wallet on client-side only
 if (typeof window !== "undefined") {

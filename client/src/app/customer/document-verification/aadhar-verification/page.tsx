@@ -12,7 +12,7 @@ import { useContext } from 'react';
 import { GlobalContext } from '@/context/context';
 import { useWallet } from '@aptos-labs/wallet-adapter-react';
 import { StateContext } from '@/context/ContractContext';
-import Cookies from "../../../../../node_modules/@types/js-cookie";
+import Cookies from "js-cookie";
 import { useRouter } from 'next/navigation';
 
 

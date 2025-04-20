@@ -12,7 +12,7 @@ import { useContext } from 'react';
 import { GlobalContext } from '@/context/context';
 import { useWallet } from '@aptos-labs/wallet-adapter-react';
 import { StateContext } from '@/context/ContractContext';
-import Cookies from "../../../../../node_modules/@types/js-cookie"; // Install this package if not already: npm install js-cookie
+import Cookies from "js-cookie"; // Install this package if not already: npm install js-cookie
 
 dotenv.config();
 
